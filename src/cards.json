@@ -12,34 +12,6 @@
         "artist": "Michelanglo Buonarroti",
         "title": "Piéta",
         "year": 1499
-    },
-    {
-        "id": 1,
-        "image": "assets/images/The_Thinker,_Rodin.jpg",
-        "artist": "Auguste Rodin",
-        "title": "The Thinker",
-        "year": 1880
-    },
-    {
-        "id": 2,
-        "image": "assets/images/michelangelo-pieta.jpg",
-        "artist": "Michelanglo Buonarroti",
-        "title": "Piéta",
-        "year": 1499
-    },
-    {
-        "id": 1,
-        "image": "assets/images/The_Thinker,_Rodin.jpg",
-        "artist": "Auguste Rodin",
-        "title": "The Thinker",
-        "year": 1880
-    },
-    {
-        "id": 2,
-        "image": "assets/images/michelangelo-pieta.jpg",
-        "artist": "Michelanglo Buonarroti",
-        "title": "Piéta",
-        "year": 1499
     }
 
 
