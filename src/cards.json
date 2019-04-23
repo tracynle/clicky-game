@@ -1,21 +1,75 @@
+
 [
     {
-        "id": 1,
-        "image": "assets/images/The_Thinker,_Rodin.jpg",
-        "artist": "Auguste Rodin",
-        "title": "The Thinker",
-        "year": 1880
+      "id": 1,
+      "name": "Chihiro",
+      "url": "/assets/images/chihiro.jpg"
     },
     {
-        "id": 2,
-        "image": "assets/images/michelangelo-pieta.jpg",
-        "artist": "Michelanglo Buonarroti",
-        "title": "Piéta",
-        "year": 1499
+      "id": 2,
+      "name": "No Face",
+      "url": "/assets/images/noface.jpg"    
+    },
+    {
+      "id": 3,
+      "name": "Haku",
+      "url": "/assets/images/haku.png"
+    },
+    {
+      "id": 4,
+      "name": "Ducks",
+      "url": "/assets/images/duck.jpg" 
+    },
+    {
+        "id": 5,
+        "name": "Gigi", 
+        "url": "/assets/images/gigi.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Kiki",
+        "url": "/assets/images/kiki.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Tombo",
+        "url": "/assets/images/tombo.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Totoro",
+        "url": "/assets/images/totoro.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Howl",
+        "url": "/assets/images/howl.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Sophie",
+        "url": "/assets/images/sophie.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Ponyo",
+        "url": "/assets/images/ponyo.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Princess Mononoke",
+        "url": "/assets/images/princess.jpg"
+    },
+    {    "id": 13,
+        "name": "Cat King",
+        "url": "/assets/images/cat.jpg"
+    },
+    {    "id": 14 ,
+        "name": "Cat Bus",
+        "url": "/assets/images/catbus.jpg"
+    },
+    {    "id": 15,
+        "name": "Soot",
+        "url": "/assets/images/soot.jpg"
     }
-
-
-
-
-
-]
+  ]

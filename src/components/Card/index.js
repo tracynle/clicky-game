@@ -5,22 +5,9 @@ import "./card.css";
 
 function Card(props) {
   return (
-    <span className="card">
+    <span className="md-3">
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
-      </div>
-      <div className="content">
-        <ul>
-          <li>
-            <strong>Artist:</strong> {props.artist}
-          </li>
-          <li>
-            <strong>Title:</strong> {props.title}
-          </li>
-          <li>
-            <strong>Year:</strong> {props.year}
-          </li>
-        </ul>
+        <img className="cardImg rounded shadow-lg" alt= { props.name } src = { props.url } onClick = {(e) => props.imageClicked(e, props.image)}/>
       </div>
     </span>
   );

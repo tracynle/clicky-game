@@ -1,0 +1,13 @@
+.jumbotron {
+    color: black;
+    font-weight: bold;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-position: center; 
+}
+
+#jumbotron-bg {
+    min-height: 400px;
+    padding: 180px 20px;
+    padding-bottom: 140px;
+    text-align: center;
+}

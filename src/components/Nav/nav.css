@@ -1,0 +1,29 @@
+
+.nav {
+    background-color: #545E75 !important;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+    font-size: 2.2em;
+    font-weight: bold;
+    font-family: sans-serif
+}
+
+.navbar-text {
+    color: white;
+    font-size: 2.2em;
+}
+
+.navbar-sticky {
+    min-height: 70px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 8px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+    color: #fff;
+    font-size: 18px;
+    z-index: 99;
+    white-space: nowrap;
+}

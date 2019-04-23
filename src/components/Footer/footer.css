@@ -1,0 +1,21 @@
+.bg-info {
+  background-color: #545E75 !important;
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-top: 35px;
+}
+  
+a, a:visited, a:hover {
+  color: white;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
