@@ -1,68 +1,52 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Studio Ghibli Clicky Game
 
-## Available Scripts
+This memory game is made with React, a JavaScript library created by Facebook. This framework simplifies user interfaces and optimizes single-page or mobile applications.
 
-In the project directory, you can run:
+## [Play the Game!](https://fathomless-plateau-65663.herokuapp.com/)
 
-### `npm start`
+![Screenshot](public/assets/screenshots/screelyscreenshot.png)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## How to Play
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+- Click on any image to earn points.  
+- The images will shuffle after each click.
+- Continue to click on other images to earn points but remember to not click on the same image, otherwise you will start over.
+- Try to get all 15 images correctly! Good luck!
 
-### `npm test`
+## Prerequesites
+Node
+git (Windows) or Terminal (Mac)
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. Decide where you would like to clone the project. 
+2. Run this command in the terminal:
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`git clone git@github.com:tracynle/clicky-game.git`
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+3. Then: `cd clicky-game` 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Install the node dependenices:
+`npm install`
+    - The npm install may take a moment
 
-### `npm run eject`
+5. To start the React app type:
+`npm start` 
+    - The game will load and you can begin playing!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## OR
+You can go to the [Heroku App](https://fathomless-plateau-65663.herokuapp.com/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Built with
+- React
+- JSX
+- JavaScript ES6
+- Bootstrap
+- HTML/CSS3
+- Node dependencies
+- Google Fonts
+- Heroku 
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
