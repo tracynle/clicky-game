@@ -29,7 +29,7 @@ class App extends Component {
     score: 0,
     topScore: 0,
     imageClicked: [],
-    gameMessage: ""
+    gameMessage: "Click on an image to begin!"
   };
 
   imageClickedFunction = (event, image) => {
@@ -97,8 +97,12 @@ class App extends Component {
     return (
       <Wrapper>
      
-      <Nav score = {this.state.score} topScore = {this.state.topScore}  
-      brand = {'Clicky Game'} navText =  {this.state.gameMessage}/>
+      <Nav 
+        score = {this.state.score} 
+        topScore = {this.state.topScore}  
+        brand = {'Clicky Game'} 
+        navText =  {this.state.gameMessage}
+      />
       <Jumbotron title = {'Studio Ghibli Game'} 
         subLine = {`Click on an image to earn points, but don't click on any more than once!`} />
         
