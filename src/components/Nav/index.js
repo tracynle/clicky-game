@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import "./nav.css";
 
 const Nav = (props) => (
@@ -9,9 +9,7 @@ const Nav = (props) => (
       <a className='nav-link' href='/'>{props.brand}</a>
     </li>
 
-    <li className="nav-item navbar-text">
-      {props.navText}
-    </li>
+    <li className="nav-item navbar-text">{props.navText} </li>
 
     <li className="nav-item navbar-text">
       Score: {props.score} | Top Score: {props.topScore}
@@ -20,5 +18,6 @@ const Nav = (props) => (
   </nav>
   
 );
+
 
 export default Nav;

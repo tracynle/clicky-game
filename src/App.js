@@ -29,9 +29,7 @@ class App extends Component {
     score: 0,
     topScore: 0,
     imageClicked: [],
-    clickedWrong: 0,
-    clickedRight: 0,
-    messageRightClick: "You guessed correctly!"
+    gameMessage: ""
   };
 
   imageClickedFunction = (event, image) => {
@@ -44,8 +42,11 @@ class App extends Component {
     // conditional to check if the clickedImages have an event from theImages.json file
     // if image from the map is not found
     if (imageClicked.indexOf(image) === -1) {
+      this.setState({
+        gameMessage: "You guessed it right!"
+      })
       imageClicked.push(image);
-      console.log("This card was clicked: ", event );
+      console.log("This card was clicked: ", image.name );
       // execute score function
       this.incrementScore();
       // reshufflleImages function called
@@ -53,41 +54,43 @@ class App extends Component {
     } 
     // if player clicked correctly
     // checks current score 
-    // if the player scores 11, game is reset to 0
-    else if (this.state.score === 11) {
+    // if the player scores 14, game is reset to 0
+    else if (this.state.score === 14) {
       this.setState({
         score: 0,
         imageClicked: [],
-        clickedWrong: 0,
-        clickedRight: 0,
-        messageRightClick: ""
-      })
+        gameMessage: "You won! Start Over!"
+      }, () => {
+        console.log("This is the gameMessage:", this.state.gameMessage);
+      });
     }
     // if player clicked incorrectly, game resets
     else {
       this.setState({
         score: 0,
         imageClicked: [],
-        clickedWrong: 0,
-        clickedRight: 0
-      })
+        gameMessage: "Wrong guess. Try again!"
+        
+      }, () => {
+        console.log("This is the gameMessage:", this.state.gameMessage);
+      });
     }
   }
   
-  // increment the score if it is guessed correctly
+  // Function increments the score if it is guessed correctly
   incrementScore = () => {
+    // Changes the score by one 
     this.setState({ score: this.state.score +1 }, () => { 
-      // Keeps topScore to compare to current score on scoreboard
+      // Keeps the topScore and compares to the current score on scoreboard
       if (this.state.score > this.state.topScore) {
-        this.setState({ topScore: this.state.score})
-      }
+        this.setState({ topScore: this.state.score });
+      };
     });
   };
 
-  // shuffle images 
+  // Function shuffles the images 
   startshuffleImages = () => {
-    this.setState({ images: shuffle(images)})
-
+    this.setState({ images: shuffle(images)});
   }
   // ==================JSX===================== //
   render() { 
@@ -95,7 +98,7 @@ class App extends Component {
       <Wrapper>
      
       <Nav score = {this.state.score} topScore = {this.state.topScore}  
-      brand = {'Clicky Game'} navText =  {this.state.GameMessage}/>
+      brand = {'Clicky Game'} navText =  {this.state.gameMessage}/>
       <Jumbotron title = {'Studio Ghibli Game'} 
         subLine = {`Click on an image to earn points, but don't click on any more than once!`} />
         
