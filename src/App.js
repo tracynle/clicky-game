@@ -8,11 +8,10 @@ import Nav from "./components/Nav";
 // import GameMessage from "./components/GameMessage";
 import Wrapper from "./components/Wrapper";
 
-// create function that will shuffle (optional)
-// state to contain the data: sculpture, score: 0, topScore: 0, 
+// create function that will shuffle
+// state contains the data: images, score: 0, topScore: 0, 
 // imageClicked: [], clickedWrong:0, clickedRight:0,
-// in render() : put divs for clickedWrong and clickedRight
-// Random shuffle
+// in render()
 
 // This function will shuffle thleImages
 function shuffle(array) {

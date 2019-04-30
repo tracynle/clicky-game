@@ -22,7 +22,7 @@ git (Windows) or Terminal (Mac)
 1. Decide where you would like to clone the project. 
 2. Run this command in the terminal:
 
-`git clone git@github.com:tracynle/clicky-game.git`
+    - `git clone git@github.com:tracynle/clicky-game.git`
 
 3. Then: `cd clicky-game` 
 
